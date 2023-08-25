@@ -1,0 +1,63 @@
+/* using universal selector to restrict default margin ,padding and set box sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 248, 255);
+}
+/* giving style to the container which contains both buttom and the text  */
+.container{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* styling to the h1 element */
+h1{
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+    padding: 10px ;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+/* styling to the h3 element */
+h3{
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px ;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+/* styling to the button element */
+button{
+    background-color: #081752;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* media query for small devices  */
+@media screen and (max-width:500px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 100px; */
+    }
+   
+}
