@@ -15,4 +15,4 @@ created Random Color generator using HTML , CSS , JAVASCRIPT. It generates rando
     </p>
   </li>
 </ul>
-<span> visit site at : </span>
+<span> visit site at : https://nikhilendra1234.github.io/Random_Color_Generator/ </span>
